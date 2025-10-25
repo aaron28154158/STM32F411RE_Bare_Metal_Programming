@@ -5,7 +5,6 @@
 #include "uart.h"
 #include "exti.h"
 
-/* ✅ 使用標誌位而非直接處理 */
 volatile uint8_t button_pressed = 0;
 
 int main(void)
